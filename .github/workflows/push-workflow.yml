@@ -1,4 +1,4 @@
-name: first_workflow
+name: push_workflow
 on:
  push:
     branches:
@@ -8,8 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: first step
-        run: echo "This is my first workflow"
+        run: echo "knowing about push workflow"
       - name: second step
         run: |
-            echo "practising github actions"
-            echo "started successfully"
+            echo "on push event workflow"
+            echo "pushed successfully"
